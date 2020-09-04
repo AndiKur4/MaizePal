@@ -1,0 +1,15 @@
+Package: maizepal
+Title: A Maize Color Palette Generator
+Description: Color palettes inspired by maize diversity
+Version: 0.0.0.9000
+Authors@R: 
+    person("Andi", "Kur",
+           role = c("aut", "cre"),
+           email = "agkur@ncsu.edu")
+Depends:
+    R (>= 3.0)
+LazyData: true
+Suggests:
+    ggplot2
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
