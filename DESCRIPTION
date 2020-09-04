@@ -13,3 +13,4 @@ Suggests:
     ggplot2
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+Encoding: UTF-8
