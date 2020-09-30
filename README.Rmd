@@ -155,3 +155,7 @@ maize_pal("HighlandMAGIC")
 
 > Our summer nursery at the Central Crops Research Station in NC
 
+
+## Acknowledgements 
+
+Thank you to Karthik Ram of [Wes Anderson Palettes](https://github.com/karthik/wesanderson) for permission to borrow & scrapbook their code into MaizePal. Additional thanks to my old lab-mate Eddie Marques for initially suggesting this idea and to my new PI & lab-mates, Rubén, Fausto, and Allison, for enduring my endless requests for opinions on colors.
