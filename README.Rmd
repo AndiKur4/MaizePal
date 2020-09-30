@@ -121,10 +121,10 @@ maize_pal("OaxacaGreen")
 maize_pal("FloweringTime")
 ```
 
-### Husk
+### PodCorn
 
-```{r, Husk}
-maize_pal("Husk")
+```{r, PodCorn}
+maize_pal("PodCorn")
 ```
 
 ### HighlandMAGIC

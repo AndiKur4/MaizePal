@@ -9,7 +9,7 @@ maize_palettes <- list(
   RubyGold = c("#57170f", "#943124", "#eabf5a", "#f4e093", "#edaa5d", "#e77e39"),
   Sweetest = c("#b2c66b", "#696d2e", "#f9f2b2", "#f1cf62", "#6f4d22"),
   GlassGem = c("#d1aae6", "#6c5ba5", "#e66e58", "#7f346f", "#9d2315"),
-  Husk = c("#b28044", "#debc80", "#f1dfda", "#dac9ae", "#988e79"),
+  PodCorn = c("#b28044", "#debc80", "#f1dfda", "#dac9ae", "#988e79"),
   HighlandMAGIC = c("#d73c6c", "#db86a5", "#f2cb5d", "#faebb6", "#914d8f", "#4b1f96"),
   MaizAzul = c("#160d23", "#6e79a2", "#acb1d1", "#e2e7e9", "#9b969c", "#384073"),
   JimmyRed = c("#61241c", "#b66859", "#d59578", "#f1deda", "#ddbb7f", "#a04230"),
