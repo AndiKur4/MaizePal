@@ -15,13 +15,16 @@ knitr::opts_chunk$set(
 )
 ```
 
-# Maize Color Palettes
-
 ![](maizePal.png)
 
-insert text introduction to this package. Statement about maize diversity, color palettes 
-inspired by colors. Talk a little about the pigments that create different colors,
-maybe about the significance of these colors in different cultures.
+###Dear user,
+
+  About one year ago, my research took an unexpected turn & I found myself studying maize. For better or worse, I was here, surrounded by corn & by people who seemed to be obsessed with it. At first, I didn't "get it" because to me, corn was corn was corn. It was yellow and green and covered vast swaths of the Midwest. Anyone who studies *traditional* varieties of maize knows, however, that this is not a very generous archetype. (NOTE: Traditional, or landrace, varieties are crops that have been bred by farmers through artificial selection, outside of the formal breeding sector and often associated with a particular agroecosystem and cultural heritage). 
+
+  The lab I recently joined ([GEMMAlab](https://www.gemmalab.org/)) studies maize landraces to ask fundamental questions about evolution and adaptation, knowledge that we can then apply to practical applications in breeding and conservation. In many ways, our lab's research exists in sharp contrast to my initial assessment of the crop. After one season working in the nursery, I am now convinced that maize can be absolutely beautiful, far more than I ever gave it credit for. I harvested cobs with kernels that were shiny and red as rubies, and others that were pink and purple and looked like they belonged in a candy shop. Further searching into international collections online revealed cobs from Oaxaca that were jade green, cobs from Peru that looked like cream pine cones with purple speckles, and still others that were pitch black then magenta when milled. 
+
+  The variety seems endless, and I could wax poetic about how wrong I was that corn is just yellow and green. Instead, I wrote an R package inspired by the colors and cobs I've seen. This collection of color palettes is not perfect nor complete, and I will continue to add to it as I come across more cobs I would like to document and share. In the meantime, I hope you find this package is useful, colorful, and fun.
+
 
 ## Installation
 
@@ -38,7 +41,7 @@ library("MaizePal")
 names(maize_palettes)
 ```
 
-## Palettes
+# Palettes
 
 ### Sweetest
 
