@@ -44,14 +44,6 @@ names(maize_palettes)
 ```
 
 
-```{r, echo=FALSE, out.width="50%"}
-library(knitr)
-include_graphics("~/R_packages/maizepal/HighMAGIC.jpg")
-```
-
-> The above picture is of a mapping population that our lab is currently working with, as a part of the [Genetics of Highland Adaptation in Maize](http://highlandadaptation.org/) project. The parent landraces of this population are from highlands fields in Central and South America (Sabanero, Bolita, Connor, Pising, Azul, Mishca, Cpunti, and Palomero).
-
-
 # Palettes
 
 ### Sweetest
@@ -152,6 +144,11 @@ maize_pal("PodCorn")
 ```{r, HighlandMAGIC}
 maize_pal("HighlandMAGIC")
 ```
+
+
+![](HighMAGIC.jpg)
+
+> The above picture is of a mapping population that our lab is currently working with, as a part of the [Genetics of Highland Adaptation in Maize](http://highlandadaptation.org/) project. The parent landraces of this population are from highlands fields in Central and South America (Sabanero, Bolita, Connor, Pising, Azul, Mishca, Cpunti, and Palomero)
 
 
 ![](nurseryNCSU.JPG)
