@@ -133,6 +133,7 @@ maize_pal("PodCorn")
 maize_pal("HighlandMAGIC")
 ```
 
+![](HighMAGIC.jpg)
 
 
 ```{r, ggplot1, fig.height = 3}
