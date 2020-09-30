@@ -9,6 +9,7 @@ Authors@R:
 Depends:
     R (>= 3.0)
 LazyData: true
+License: NA
 Suggests:
     ggplot2
 Roxygen: list(markdown = TRUE)
