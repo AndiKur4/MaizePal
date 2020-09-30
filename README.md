@@ -39,9 +39,14 @@ continue to add to it as I come across more cobs I would like to
 document and share. In the meantime, I hope you find this package to be
 useful, colorful, and fun.
 
-![](nurseryNCSU.JPG)
+<img src="HighMAGIC.jpg" style="width:50.0%" />
 
-> Our summer nursery at the Central Crops Research Station in NC
+> The above picture is of a mapping population that our lab is currently
+> working with, as a part of the [Genetics of Highland Adaptation in
+> Maize](http://highlandadaptation.org/) project. The parent landraces
+> of this population are from highlands fields in Central and South
+> America (Sabanero, Bolita, Connor, Pising, Azul, Mishca, Cpunti, and
+> Palomero).
 
 Installation
 ------------
@@ -187,11 +192,6 @@ maize_pal("HighlandMAGIC")
 
 ![](figure/HighlandMAGIC-1.png)
 
-<img src="HighMAGIC.jpg" style="width:75.0%" />
+![](nurseryNCSU.JPG)
 
-> The above picture is of a mapping population that our lab is currently
-> working with, as a part of the [Genetics of Highland Adaptation in
-> Maize](http://highlandadaptation.org/) project. The parent landraces
-> of this population are from highlands fields in Central and South
-> America (Sabanero, Bolita, Connor, Pising, Azul, Mishca, Cpunti, and
-> Palomero).
+> Our summer nursery at the Central Crops Research Station in NC
