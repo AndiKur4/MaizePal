@@ -14,3 +14,5 @@ Suggests:
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 Encoding: UTF-8
+URL: https://github.com/AndiKur4/MaizePal
+BugReports: https://github.com/AndiKur4/MaizePal/issues
