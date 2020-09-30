@@ -19,9 +19,9 @@ knitr::opts_chunk$set(
 
 ### Why MaizePal?
 
-  About one year ago, my research took an unexpected turn & I found myself studying maize. For better or worse, I was here, surrounded by corn & by people who seemed to be obsessed with it. At first, I didn't "get it" because to me, corn was corn was corn. It was yellow and green and covered vast swaths of the Midwest. Anyone who studies traditional varieties of maize knows, however, that this is not a very generous archetype.
+  About one year ago, my research took an unexpected turn & I found myself studying maize. For better or worse, I was here, surrounded by corn & by people who seemed to be obsessed with it. At first, I didn't "get it" because to me, corn was corn was corn. It was yellow and green and covered vast swaths of the Midwest. Anyone who studies landrace varieties of maize knows, however, that this is not a very generous archetype.
   
-> Traditional, or landrace, varieties are crops that have been bred by farmers through artificial selection, outside of the formal breeding sector and often associated with a particular agroecosystem and cultural heritage). 
+> Landraces are varieties of crops that have been bred by farmers through artificial selection, outside of the formal breeding sector and are often associated with a particular agroecosystem and cultural heritage. 
 
 The lab I recently joined ([GEMMAlab](https://www.gemmalab.org/)) studies maize landraces to ask fundamental questions about evolution and adaptation, knowledge that we can then apply to practical applications in breeding and conservation. In many ways, our lab's research exists in sharp contrast to my initial assessment of the crop. After one season working in the nursery, I am now convinced that maize can be absolutely beautiful, far more than I ever gave it credit for. I harvested cobs with kernels that were shiny and red as rubies, and others that were pink and purple and looked like they belonged in a candy shop. Further searching into international collections online revealed cobs from Oaxaca that were jade green, cobs from Peru that looked like cream pine cones with purple speckles, and still others that were pitch black then magenta when milled. 
 
@@ -99,6 +99,15 @@ maize_pal("HopiBlue")
 maize_pal("GlassGem")
 ```
 
+
+
+```{r, ggplot1, fig.height = 3}
+library("ggplot2")
+ggplot(mtcars, aes(factor(cyl), fill=factor(gear))) +  geom_bar() +
+  scale_fill_manual(values = maize_pal("GlassGem"))
+```
+
+
 ### Painted
 
 ```{r, Painted}
@@ -135,11 +144,5 @@ maize_pal("PodCorn")
 maize_pal("HighlandMAGIC")
 ```
 
-![](HighMAGIC.jpg)
-
-
-```{r, ggplot1, fig.height = 3}
-library("ggplot2")
-ggplot(mtcars, aes(factor(cyl), fill=factor(gear))) +  geom_bar() +
-  scale_fill_manual(values = maize_pal("GlassGem"))
-```
+![](HighMAGIC.jpg){width=75%}
+> The above picture is of a mapping population that our lab is currently working with, as a part of the {Genetics of Highland Adaptation in Maize}(http://highlandadaptation.org/) project. The parent landraces of this population are from highlands fields in Central and South America (Sabanero, Bolita, Connor, Pising, Azul, Mishca, Cpunti, and Palomero).

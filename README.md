@@ -8,14 +8,14 @@ About one year ago, my research took an unexpected turn & I found myself
 studying maize. For better or worse, I was here, surrounded by corn & by
 people who seemed to be obsessed with it. At first, I didn’t “get it”
 because to me, corn was corn was corn. It was yellow and green and
-covered vast swaths of the Midwest. Anyone who studies traditional
+covered vast swaths of the Midwest. Anyone who studies landrace
 varieties of maize knows, however, that this is not a very generous
 archetype.
 
-> Traditional, or landrace, varieties are crops that have been bred by
-> farmers through artificial selection, outside of the formal breeding
-> sector and often associated with a particular agroecosystem and
-> cultural heritage).
+> Landraces are varieties of crops that have been bred by farmers
+> through artificial selection, outside of the formal breeding sector
+> and are often associated with a particular agroecosystem and cultural
+> heritage.
 
 The lab I recently joined ([GEMMAlab](https://www.gemmalab.org/))
 studies maize landraces to ask fundamental questions about evolution and
@@ -126,6 +126,14 @@ maize_pal("GlassGem")
 
 ![](figure/GlassGem-1.png)
 
+``` r
+library("ggplot2")
+ggplot(mtcars, aes(factor(cyl), fill=factor(gear))) +  geom_bar() +
+  scale_fill_manual(values = maize_pal("GlassGem"))
+```
+
+![](figure/ggplot1-1.png)
+
 ### Painted
 
 ``` r
@@ -174,12 +182,10 @@ maize_pal("HighlandMAGIC")
 
 ![](figure/HighlandMAGIC-1.png)
 
-![](HighMAGIC.jpg)
-
-``` r
-library("ggplot2")
-ggplot(mtcars, aes(factor(cyl), fill=factor(gear))) +  geom_bar() +
-  scale_fill_manual(values = maize_pal("GlassGem"))
-```
-
-![](figure/ggplot1-1.png)
+<img src="HighMAGIC.jpg" style="width:75.0%" /> \> The above picture is
+of a mapping population that our lab is currently working with, as a
+part of the {Genetics of Highland Adaptation in
+Maize}(<a href="http://highlandadaptation.org/" class="uri">http://highlandadaptation.org/</a>)
+project. The parent landraces of this population are from highlands
+fields in Central and South America (Sabanero, Bolita, Connor, Pising,
+Azul, Mishca, Cpunti, and Palomero).
