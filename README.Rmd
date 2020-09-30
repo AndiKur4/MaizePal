@@ -27,9 +27,6 @@ The lab I recently joined ([GEMMAlab](https://www.gemmalab.org/)) studies maize 
 
 The variety of colors and shapes seems endless, and I could wax poetic about how wrong I was that corn is just yellow and green. Instead, I wrote an R package inspired by the colors and cobs I've seen. This collection of color palettes is not perfect nor complete, and I will continue to add to it as I come across more cobs I would like to document and share. In the meantime, I hope you find this package to be useful, colorful, and fun.
 
-![](HighMAGIC.jpg){width=50%}
-
-> The above picture is of a mapping population that our lab is currently working with, as a part of the [Genetics of Highland Adaptation in Maize](http://highlandadaptation.org/) project. The parent landraces of this population are from highlands fields in Central and South America (Sabanero, Bolita, Connor, Pising, Azul, Mishca, Cpunti, and Palomero).
 
 ## Installation
 
@@ -45,6 +42,15 @@ library("MaizePal")
 # See all palettes
 names(maize_palettes)
 ```
+
+
+```{r, echo=FALSE, out.width="50%"}
+library(knitr)
+include_graphics("~/R_packages/maizepal/HighMAGIC.jpg")
+```
+
+> The above picture is of a mapping population that our lab is currently working with, as a part of the [Genetics of Highland Adaptation in Maize](http://highlandadaptation.org/) project. The parent landraces of this population are from highlands fields in Central and South America (Sabanero, Bolita, Connor, Pising, Azul, Mishca, Cpunti, and Palomero).
+
 
 # Palettes
 

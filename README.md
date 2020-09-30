@@ -39,15 +39,6 @@ continue to add to it as I come across more cobs I would like to
 document and share. In the meantime, I hope you find this package to be
 useful, colorful, and fun.
 
-<img src="HighMAGIC.jpg" style="width:50.0%" />
-
-> The above picture is of a mapping population that our lab is currently
-> working with, as a part of the [Genetics of Highland Adaptation in
-> Maize](http://highlandadaptation.org/) project. The parent landraces
-> of this population are from highlands fields in Central and South
-> America (Sabanero, Bolita, Connor, Pising, Azul, Mishca, Cpunti, and
-> Palomero).
-
 Installation
 ------------
 
@@ -68,6 +59,15 @@ names(maize_palettes)
 #>  [9] "JimmyRed"      "FloweringTime" "HopiBlue"      "Painted"      
 #> [13] "MaizMorado"    "OaxacaGreen"
 ```
+
+<img src="~/R_packages/maizepal/HighMAGIC.jpg" width="50%" />
+
+> The above picture is of a mapping population that our lab is currently
+> working with, as a part of the [Genetics of Highland Adaptation in
+> Maize](http://highlandadaptation.org/) project. The parent landraces
+> of this population are from highlands fields in Central and South
+> America (Sabanero, Bolita, Connor, Pising, Azul, Mishca, Cpunti, and
+> Palomero).
 
 Palettes
 ========
