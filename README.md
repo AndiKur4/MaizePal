@@ -182,10 +182,11 @@ maize_pal("HighlandMAGIC")
 
 ![](figure/HighlandMAGIC-1.png)
 
-<img src="HighMAGIC.jpg" style="width:75.0%" /> \> The above picture is
-of a mapping population that our lab is currently working with, as a
-part of the {Genetics of Highland Adaptation in
-Maize}(<a href="http://highlandadaptation.org/" class="uri">http://highlandadaptation.org/</a>)
-project. The parent landraces of this population are from highlands
-fields in Central and South America (Sabanero, Bolita, Connor, Pising,
-Azul, Mishca, Cpunti, and Palomero).
+<img src="HighMAGIC.jpg" style="width:75.0%" />
+
+> The above picture is of a mapping population that our lab is currently
+> working with, as a part of the [Genetics of Highland Adaptation in
+> Maize](http://highlandadaptation.org/) project. The parent landraces
+> of this population are from highlands fields in Central and South
+> America (Sabanero, Bolita, Connor, Pising, Azul, Mishca, Cpunti, and
+> Palomero).
