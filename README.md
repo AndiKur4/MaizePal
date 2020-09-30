@@ -2,18 +2,20 @@
 
 ![](maizePal.png)
 
-\#\#\#Dear user,
+### Why MaizePal?
 
 About one year ago, my research took an unexpected turn & I found myself
 studying maize. For better or worse, I was here, surrounded by corn & by
 people who seemed to be obsessed with it. At first, I didn’t “get it”
 because to me, corn was corn was corn. It was yellow and green and
-covered vast swaths of the Midwest. Anyone who studies *traditional*
+covered vast swaths of the Midwest. Anyone who studies traditional
 varieties of maize knows, however, that this is not a very generous
-archetype. (NOTE: Traditional, or landrace, varieties are crops that
-have been bred by farmers through artificial selection, outside of the
-formal breeding sector and often associated with a particular
-agroecosystem and cultural heritage).
+archetype.
+
+> Traditional, or landrace, varieties are crops that have been bred by
+> farmers through artificial selection, outside of the formal breeding
+> sector and often associated with a particular agroecosystem and
+> cultural heritage).
 
 The lab I recently joined ([GEMMAlab](https://www.gemmalab.org/))
 studies maize landraces to ask fundamental questions about evolution and
@@ -34,7 +36,7 @@ that corn is just yellow and green. Instead, I wrote an R package
 inspired by the colors and cobs I’ve seen. This collection of color
 palettes is not perfect nor complete, and I will continue to add to it
 as I come across more cobs I would like to document and share. In the
-meantime, I hope you find this package is useful, colorful, and fun.
+meantime, I hope you find this package to be useful, colorful, and fun.
 
 Installation
 ------------
@@ -52,7 +54,7 @@ library("MaizePal")
 # See all palettes
 names(maize_palettes)
 #>  [1] "Anthocyanins1" "Anthocyanins2" "RubyGold"      "Sweetest"     
-#>  [5] "GlassGem"      "Husk"          "HighlandMAGIC" "MaizAzul"     
+#>  [5] "GlassGem"      "PodCorn"       "HighlandMAGIC" "MaizAzul"     
 #>  [9] "JimmyRed"      "FloweringTime" "HopiBlue"      "Painted"      
 #> [13] "MaizMorado"    "OaxacaGreen"
 ```
@@ -156,13 +158,13 @@ maize_pal("FloweringTime")
 
 ![](figure/FloweringTime-1.png)
 
-### Husk
+### PodCorn
 
 ``` r
-maize_pal("Husk")
+maize_pal("PodCorn")
 ```
 
-![](figure/Husk-1.png)
+![](figure/PodCorn-1.png)
 
 ### HighlandMAGIC
 
@@ -172,10 +174,12 @@ maize_pal("HighlandMAGIC")
 
 ![](figure/HighlandMAGIC-1.png)
 
+![](HighMAGIC.jpg)
+
 ``` r
 library("ggplot2")
 ggplot(mtcars, aes(factor(cyl), fill=factor(gear))) +  geom_bar() +
-  scale_fill_manual(values = maize_pal("Anthocyanins1"))
+  scale_fill_manual(values = maize_pal("GlassGem"))
 ```
 
 ![](figure/ggplot1-1.png)
