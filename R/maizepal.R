@@ -1,6 +1,6 @@
-#' @title maizepal
-#' @name maizepal
+#' @title MaizePal
+#' @name MaizePal
 #' @docType package
-#' @details list of color palettes from maize varieties
-#' @description list of color palettes from maize varieties
+#' @details R color palettes
+#' @description list of color palettes inspired by maize
 NULL

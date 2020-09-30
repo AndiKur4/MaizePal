@@ -5,12 +5,12 @@
 \alias{maize_palettes}
 \title{Complete list of palettes}
 \format{
-An object of class \code{list} of length 8.
+An object of class \code{list} of length 14.
 }
 \usage{
 maize_palettes
 }
 \description{
-Use \code{\link{maize_palette}} to construct palettes of desired length.
+Use \code{\link{maize_pal}} to construct palettes of desired length.
 }
 \keyword{datasets}

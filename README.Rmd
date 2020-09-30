@@ -1,0 +1,139 @@
+---
+output:
+  md_document:
+    variant: markdown_github
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "figure/",
+  fig.height = 1
+)
+```
+
+# Maize Color Palettes
+
+![](maizePal.png)
+
+insert text introduction to this package. Statement about maize diversity, color palettes 
+inspired by colors. Talk a little about the pigments that create different colors,
+maybe about the significance of these colors in different cultures.
+
+## Installation
+
+```r
+install.packages("MaizePal")
+```
+
+## Usage
+
+```{r, palettes_dummy}
+library("MaizePal")
+
+# See all palettes
+names(maize_palettes)
+```
+
+## Palettes
+
+### Sweetest
+
+```{r, Sweetest}
+maize_pal("Sweetest")
+```
+
+### Anthocyanins1
+
+```{r, Anthocyanins1}
+maize_pal("Anthocyanins1")
+```
+
+
+### Anthocyanins2
+
+```{r, Anthocyanins2}
+maize_pal("Anthocyanins2")
+```
+
+
+### RubyGold
+
+```{r, RubyGold}
+maize_pal("RubyGold")
+```
+
+
+### JimmyRed
+
+```{r, JimmyRed}
+maize_pal("JimmyRed")
+```
+
+
+### MaizAzul
+
+```{r, MaizAzul}
+maize_pal("MaizAzul")
+```
+
+
+### HopiBlue
+
+```{r, HopiBlue}
+maize_pal("HopiBlue")
+```
+
+
+### GlassGem
+
+```{r, GlassGem}
+maize_pal("GlassGem")
+```
+
+### Painted
+
+```{r, Painted}
+maize_pal("Painted")
+```
+
+### MaizMorado
+
+```{r, MaizMorado}
+maize_pal("MaizMorado")
+```
+
+### OaxacaGreen
+
+```{r, OaxacaGreen}
+maize_pal("OaxacaGreen")
+```
+
+### FloweringTime
+
+```{r, FloweringTime}
+maize_pal("FloweringTime")
+```
+
+### Husk
+
+```{r, Husk}
+maize_pal("Husk")
+```
+
+### HighlandMAGIC
+
+```{r, HighlandMAGIC}
+maize_pal("HighlandMAGIC")
+```
+
+
+
+```{r, ggplot1, fig.height = 3}
+library("ggplot2")
+ggplot(mtcars, aes(factor(cyl), fill=factor(gear))) +  geom_bar() +
+  scale_fill_manual(values = maize_pal("Anthocyanins1"))
+```
