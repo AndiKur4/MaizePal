@@ -1,7 +1,7 @@
 Package: MaizePal
 Title: A Maize Color Palette Generator
 Description: R color palettes inspired by maize diversity
-Version: 0.0.0.9000
+Version: 0.0.1.0000
 Authors@R: 
     person("Andi", "Kur",
            role = c("aut", "cre"),
