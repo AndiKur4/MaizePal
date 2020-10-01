@@ -46,7 +46,7 @@ I have not yet released the package to CRAN, but intend to do so soon.
 For now, please download directly from github using:
 
 ``` r
-devtools::install_github("MaizePal")
+devtools::install_github("AndiKur4/MaizePal")
 ```
 
 Usage
