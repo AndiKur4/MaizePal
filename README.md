@@ -42,8 +42,11 @@ useful, colorful, and fun.
 Installation
 ------------
 
+I have not yet released the package to CRAN, but intend to do so soon.
+For now, please download directly from github using:
+
 ``` r
-install.packages("MaizePal")
+devtools::install_github("MaizePal")
 ```
 
 Usage
